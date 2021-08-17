@@ -1,0 +1,19 @@
+.superInput {
+    background-color: darkgray;
+    outline: none;
+
+}
+.superInput:focus {
+    outline: none;
+}
+
+.errorInput {
+    border: 3px solid red;
+    background-color: darkgray;
+    outline: none;
+
+}
+
+.error {
+    color: red;
+}

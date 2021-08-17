@@ -1,0 +1,78 @@
+.someClass {
+
+}
+.affairs{
+    /*background-color: dodgerblue;*/
+    width: 400px;
+    height: 200px;
+
+
+
+}
+
+.affair {
+    display: flex;
+    padding: 5px 10px;
+
+
+
+}
+
+.priority {
+    display: flex;
+    justify-content: flex-start;
+    width: 130px;
+
+}
+
+.name {
+    width: 300px;
+    font-weight: bold;
+
+}
+
+.button {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.button_item {
+    width: 80px;
+
+}
+
+.button_priority{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+
+}
+/*.button_priority_item {*/
+/*    background-color: green;*/
+
+/*}*/
+
+/*.button_priority_text {*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.low {
+    color: green;
+    font-weight: bold;
+}
+
+.high {
+    color: red;
+    font-weight: bold;
+}
+.middle {
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+

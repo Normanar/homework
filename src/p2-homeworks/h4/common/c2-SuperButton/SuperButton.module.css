@@ -1,0 +1,43 @@
+.default {
+    background-color: dodgerblue;
+    color: white;
+    outline: none;
+    transition: all 0.5s ease;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.default:hover{
+    background-color: white;
+    color: dodgerblue;
+    outline: none;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+
+.default:disabled {
+    color: darkgray;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.default:disabled:hover {
+    background-color: dodgerblue;
+    border-radius: 2px;
+
+}
+
+.red {
+    background: red;
+    outline: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.red:hover {
+    background: black;
+    color: red;
+    outline: none;
+    font-weight: bold;
+    border-radius: 2px;
+}

@@ -1,0 +1,97 @@
+
+
+/*.messageOne {*/
+/*    background-color: gray;*/
+/*    border-radius: 5px;*/
+/*    margin: 0 auto 0 0;*/
+/*    padding: 1px 20px;*/
+/*}*/
+/*.avatar img {*/
+/*    width: 70px;*/
+/*    border-radius: 50%;*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    margin: 0 0 0 5px;*/
+
+
+/*}*/
+
+/*.avatar {*/
+
+/*}*/
+
+/*.message {*/
+
+
+/*    margin: 0 auto 0 0;*/
+/*    padding: 5px 20px;*/
+
+
+
+
+
+
+/*}*/
+
+/*.wrapper {*/
+/*    display: grid;*/
+/*    grid-auto-rows: 1fr 1fr 1fr;*/
+/*    grid-template-columns: 1fr 13fr;*/
+
+
+/*}*/
+
+/*.time {*/
+/*    background-color: gray;*/
+/*    color: red;*/
+
+
+
+/*}*/
+
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+
+}
+.avatar{
+    padding: 0 20px 0 20px;
+}
+
+.avatar img {
+    width: 50px;
+    border: black solid 1px;
+    border-radius: 50%;
+
+}
+
+.message{
+    background-color: grey;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 0;
+    position: relative;
+}
+
+.name {
+    color: #FFC0CB;
+    font-size: 20px;
+}
+
+.time{
+    display: flex;
+    justify-content: flex-end;
+    color: #FF00FF;
+}
+
+.message::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid grey;
+    top: 77.5%;
+    left: -20px;
+    z-index: 1;
+}

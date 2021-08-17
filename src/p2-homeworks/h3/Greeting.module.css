@@ -1,0 +1,13 @@
+.someClass {
+
+}
+
+.error {
+    border: 3px solid red;
+    outline: none;
+}
+
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
