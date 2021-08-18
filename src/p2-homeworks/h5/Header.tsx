@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { NavLink } from 'react-router-dom'
+import {PATH} from "./Routes";
+import s from './hw5.module.css'
 
 function Header() {
-    return (
-        <div>
-            // add NavLinks
 
+    let [menu, setMenu] = useState<boolean>(false)
+
+
+    return (
+        <div className={menu ? `${s.navlink} ${s.navlink_active}` : `${s.navlink}`}>
+            <NavLink className={s.navlink_item} to={PATH.PRE_JUNIOR}>pre-junior</NavLink>
+            <NavLink className={s.navlink_item} to={PATH.JUNIOR}>junior</NavLink>
+            <NavLink className={s.navlink_item} to={PATH.JUNIOR_PLUS}>junior-plus</NavLink>
+            <div className={s.circle} onClick={() => setMenu(!menu)}></div>
         </div>
     )
 }

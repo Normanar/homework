@@ -1,0 +1,44 @@
+.navlink {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    position: relative;
+    transition: 1s;
+    transform: translateX(-100%);
+
+}
+
+.navlink_active {
+    transform: translateX(0);
+}
+.navlink_item{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.circle {
+    /*height: 20px;*/
+    /*width: 20px;*/
+    /*background-color: black;*/
+    /*border-radius: 50%;*/
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 25px solid green;
+    border-bottom: 13px solid transparent;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    cursor: pointer;
+}
+
+.error {
+    font-weight: 900;
+    font-size: 200px;
+    text-align: center;
+}
+.errorText {
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+}
