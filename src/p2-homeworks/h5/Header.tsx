@@ -10,9 +10,9 @@ function Header() {
 
     return (
         <div className={menu ? `${s.navlink} ${s.navlink_active}` : `${s.navlink}`}>
-            <NavLink className={s.navlink_item} to={PATH.PRE_JUNIOR}>pre-junior</NavLink>
-            <NavLink className={s.navlink_item} to={PATH.JUNIOR}>junior</NavLink>
-            <NavLink className={s.navlink_item} to={PATH.JUNIOR_PLUS}>junior-plus</NavLink>
+            <NavLink className={s.navlink_item} activeClassName={s.navlink_item_active} to={PATH.PRE_JUNIOR}>pre-junior</NavLink>
+            <NavLink className={s.navlink_item} activeClassName={s.navlink_item_active} to={PATH.JUNIOR}>junior</NavLink>
+            <NavLink className={s.navlink_item} activeClassName={s.navlink_item_active} to={PATH.JUNIOR_PLUS}>junior-plus</NavLink>
             <div className={s.triangle} onClick={() => setMenu(!menu)}></div>
         </div>
     )
