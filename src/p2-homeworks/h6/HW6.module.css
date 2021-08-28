@@ -1,0 +1,13 @@
+.style_for_span {
+    font-size: 15px;
+    font-weight: bold;
+    color: magenta;
+
+}
+
+.button {
+    margin-left: 10px;
+}
+.input_span{
+    margin: 10px;
+}
