@@ -1,16 +1,13 @@
-import HW1 from "../../h1/HW1";
-import HW2 from "../../h2/HW2";
-import HW3 from "../../h3/HW3";
-import HW4 from "../../h4/HW4";
 import React from "react";
+import HW6 from "../../h6/HW6";
+import HW7 from "../../h7/HW7";
 
 
 function Junior () {
     return (
         <div>
-            to be continued
-            {/*<HW6/>*/}
-
+            <HW6/>
+            <HW7/>
         </div>
     )
 }
