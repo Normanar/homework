@@ -1,0 +1,17 @@
+.table{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.people{
+
+}
+
+.buttons{
+    display: flex;
+}
+
+.main{
+    margin-left: 20px;
+}

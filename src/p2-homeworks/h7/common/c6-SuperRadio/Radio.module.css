@@ -1,22 +1,18 @@
-.checkbox {
+.radio {
     appearance: none;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border: 1px black solid;
+    border-radius: 50%;
     position: relative;
     color: dodgerblue;
 }
 
-.checkbox:checked:after{
+.radio:checked:after{
     position: absolute;
     appearance: none;
     content: "X";
     font-weight: bold;
     font-size: 20px;
-    transform: translateY(-15%) translateX(2%);
-
+    transform: translateY(-5%) translateX(10%);
 }
-
-
-
-

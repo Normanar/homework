@@ -1,8 +1,11 @@
 .style_for_span {
     font-size: 15px;
     font-weight: bold;
-    color: magenta;
+    color: black;
+}
 
+.style_for_span::before{
+    content: "\270E";
 }
 
 .button {

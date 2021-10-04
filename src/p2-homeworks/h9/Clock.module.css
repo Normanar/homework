@@ -1,0 +1,22 @@
+.main {
+    margin-left: 10px;
+}
+
+.clock{
+    border: 4px gray solid;
+    width : 120px;
+    height : 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width : 120px;
+    margin-top: 10px;
+}

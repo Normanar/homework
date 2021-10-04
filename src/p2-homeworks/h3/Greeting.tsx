@@ -18,7 +18,7 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = error ? s.error : "" // need to fix with (?:)
 
     return (
-        <div>
+        <div className={s.greeting}>
             {/*<input value={name} onChange={setNameCallback} className={inputClass}/>*/}
             <SuperInputText value={name} onChange={setNameCallback} className={inputClass} onEnter={() => addUser()}/>
             <span>{error}</span>
