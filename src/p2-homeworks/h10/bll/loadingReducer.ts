@@ -8,11 +8,11 @@ const initState = {
 
 export const loadingReducer = (state = initState, action: LoadingACType): InitStateType => { // fix any
     switch (action.type) {
-        case 'loadingOn': {
+        case 'LOADING-ON': {
             return {...state, isLoading: true}
         }
 
-        case 'loadingOff': {
+        case 'LOADING-OFF': {
             return {...state, isLoading: false}
         }
         default: return state
@@ -21,13 +21,13 @@ export const loadingReducer = (state = initState, action: LoadingACType): InitSt
 
 export const loadingOnAC = () => {
     return {
-        type: "loadingOn"
+        type: "LOADING-ON"
     } as const
 } // fix any
 
 export const loadingOffAC = () => {
     return {
-        type: "loadingOff"
+        type: "LOADING-OFF"
     } as const
 } // fix any
 
