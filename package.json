@@ -1,6 +1,6 @@
 {
   "name": "homework",
-  "homepage": "https://normanar.github.io/react-homeworks",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "clean" : "gh-pages-clean"
+    "clean": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": [
